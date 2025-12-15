@@ -31,15 +31,6 @@ A comprehensive PHP library for connecting to and extracting data from ZKTeco fi
 composer require nazamey/zktecodevices
 ```
 
-### Manual Installation
-
-1. Download the library files
-2. Include the ZKTeco class in your project:
-
-```php
-require_once 'src/ZKTeco.php';
-```
-
 ## 🚀 Quick Start
 
 ### Basic Usage
@@ -90,9 +81,13 @@ $attendance = $zk->getAttendanceLogs();
 // Persist them as needed (CSV/JSON/DB/etc.)
 ?>
 ```
-Set Users
-//    set user
 
+
+
+
+### Set Users
+
+```bash
 //    1 s't parameter int $uid Unique ID (max 65535)
 //    2 nd parameter int|string $userid ID in DB (same like $uid, max length = 9, only numbers - depends device setting)
 //    3 rd parameter string $name (max length = 24)
@@ -103,6 +98,7 @@ Set Users
 //    return bool|mixed
 
     $zk->setUser(); 
+```
 
 
 ## � API Documentation
