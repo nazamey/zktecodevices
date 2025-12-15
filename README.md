@@ -202,6 +202,8 @@ This library is intended to work with common ZKTeco TCP/IP devices such as:
 - **ZKTeco K Series** (Various firmware versions)
 - **ZKTeco F18** 
 - **ZKTeco MA300**
+- **ZKTeco UFace 800** 
+- **ZKTeco IFace 990 Plus**
 - **Various TCP/IP models**
 
 ## �️ Troubleshooting
