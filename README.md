@@ -31,6 +31,21 @@ A comprehensive PHP library for connecting to and extracting data from ZKTeco fi
 composer require nazamey/zktecodevices
 ```
 
+### After Package Installed Add The Below line on the Composer.json
+```bash
+"Nazamey\\Zktecodevices\\": "vendor/nazamey/zktecodevices/src/"
+```
+### ON This Part
+```bash
+   "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Nazamey\\Zktecodevices\\": "vendor/nazamey/zktecodevices/src/"
+        }
+    },
+```
 ## 🚀 Quick Start
 
 ### Basic Usage
