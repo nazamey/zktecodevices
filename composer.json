@@ -1,0 +1,19 @@
+{
+    "name": "nazamey/zktecodevices",
+    "description": "Nazamey abstraction layer for ZKTeco attendance devices.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nazamey\\\\Zktecodevices\\\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-sockets": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
+
